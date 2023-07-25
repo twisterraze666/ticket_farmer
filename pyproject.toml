@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ticketfarmer"
+version = "0.1.0"
+description = "Thanks to this script, you no longer have to waste time getting a ticket, just run main.py and the program will catch the ticket for you. In case of successful finding of the coupon, the program will notify you."
+authors = ["twisterraze666"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.5"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+rich = "^13.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
